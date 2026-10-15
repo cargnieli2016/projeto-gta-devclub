@@ -16,7 +16,7 @@ html {
 
 body {
     /* coloca uma imagem de fundo */
-  background-image: url("img/background2.jpg");
+  background-image: url("./assets/background2.jpg");
   background-size: cover;
   background-position: center;
 }
