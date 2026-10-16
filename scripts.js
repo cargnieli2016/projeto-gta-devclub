@@ -27,3 +27,12 @@
     4) Funções
 
 */
+
+let nome = document.querySelector(".nome");
+let personagem = document.querySelector(".personagem");
+
+function escolherPersonagem(nomePersonagem, imagemPersonagem, cor) {
+  nome.innerHTML = nomePersonagem;
+  personagem.src = imagemPersonagem;
+  nome.style.color = cor;
+}
